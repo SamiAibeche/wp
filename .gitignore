@@ -1,4 +1,5 @@
 src/wp-content/uploads
+wp-config.php
 .idea
 .vscode
 *.todo

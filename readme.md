@@ -12,7 +12,7 @@ You should have Node installed Globaly
 
 
 ```
-Please create a database and update these lines in wp-config.php
+Please create a database and add wp-config.php file with these lines :
 
 /** The name of the database for WordPress */
 define('DB_NAME', 'yourdbname');
