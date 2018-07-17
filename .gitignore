@@ -1,0 +1,5 @@
+src/wp-content/uploads
+.idea
+.vscode
+*.todo
+node_modules/
