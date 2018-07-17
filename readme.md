@@ -28,6 +28,14 @@ define('DB_HOST', 'yourhost');
 
 ```
 
+## Active Blank Theme
+
+
+```
+Please launch the project and active the 'blank' custom theme
+```
+
+
 ## Run Gulp
 
 ```
@@ -41,3 +49,11 @@ npm install
 gulp watch
 
 ```
+
+## Refract Blank Theme
+
+```
+1. Rename the project directory wp-content/themes/blank = wp-content/themes/your_project_name
+2. Edit the params of the theme in wp-content/themes/your_project_name/style.css
+```
+
