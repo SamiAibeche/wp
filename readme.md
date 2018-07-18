@@ -48,6 +48,10 @@ npm install
 3. Run watch task
 gulp watch
 
+Some bugs can be present with gulp-autoprefixer when you launch gulp.
+If is your case, juste remove "gulp-autoprefixer": "^3.1.1", in the package.json file
+and npm install again
+
 ```
 
 ## Refract Blank Theme
@@ -55,5 +59,9 @@ gulp watch
 ```
 1. Rename the project directory wp-content/themes/blank = wp-content/themes/your_project_name
 2. Edit the params of the theme in wp-content/themes/your_project_name/style.css
+3. Update the gulpfile.js, add your theme dirctory name in 
+
+var theme = path.join(__dirname, 'wp-content/themes/yourtheme');
+
 ```
 
