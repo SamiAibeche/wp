@@ -49,7 +49,7 @@ npm install
 gulp watch
 
 Some bug can be present with gulp-autoprefixer when you launch gulp.
-If it is your case, juste remove "gulp-autoprefixer": "^3.1.1", in the package.json file
+If it is your case, just remove "gulp-autoprefixer": "^3.1.1" line, in the package.json file
 and npm install again
 
 ```
