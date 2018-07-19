@@ -48,8 +48,8 @@ npm install
 3. Run watch task
 gulp watch
 
-Some bugs can be present with gulp-autoprefixer when you launch gulp.
-If is your case, juste remove "gulp-autoprefixer": "^3.1.1", in the package.json file
+Some bug can be present with gulp-autoprefixer when you launch gulp.
+If it is your case, juste remove "gulp-autoprefixer": "^3.1.1", in the package.json file
 and npm install again
 
 ```
